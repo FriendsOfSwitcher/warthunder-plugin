@@ -3,11 +3,12 @@ api: 1
 steamID: 236390
 uid: com.thegreatcabbage.warthunder
 author: TheGreatCabbage
+pluginDirectory: warthunder
 
 graphicsConfig: config.blk
 keymapConfig: "D:/Documents/My Games/WarThunder/Saves/11096205/production"
 
-dirName: War Thunder
+gameDirectory: War Thunder
 verificationPaths:
   - launcher.exe
   - win64
