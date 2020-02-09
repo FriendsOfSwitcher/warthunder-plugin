@@ -20,11 +20,14 @@ from src.api.Plugin import Plugin
 
 
 class WarThunderPlugin(Plugin):
+    """
+    Note: Keymap is in "D:\\Documents\\My Games\\WarThunder\\Saves\\11096205\\production\\machine.blk"
+    """
 
     def initialise(self) -> None:
         pass
 
-    def identify(self, folder_path: str) -> bool:
+    def verify(self, folder_path: str) -> bool:
         _path, name = path.split(folder_path)
         if name != "War Thunder":
             return False
