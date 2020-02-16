@@ -16,7 +16,7 @@
 import os
 from os import path
 
-from src.api.Plugin import Plugin
+from api.Plugin import Plugin
 
 
 class WarThunderPlugin(Plugin):
