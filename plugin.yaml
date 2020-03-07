@@ -4,6 +4,9 @@ steamID: 236390
 uid: com.thegreatcabbage.warthunder
 author: TheGreatCabbage
 packageName: warthunder
+features:
+  - "graphics"
+  - "keymaps"
 
 graphicsConfig: config.blk
 keymapConfig: "D:/Documents/My Games/WarThunder/Saves/11096205/production"
